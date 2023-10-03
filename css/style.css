@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f4f4f4;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container{
+    width: 842px;
+    height: 583px;
+    display: flex;
+    background: white;
+}
+
+.left{
+    width: 329px;
+    height: 583px;
+    display: flex;
+}
+
+.right{
+    width: 513px;
+    height: 583px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.cabecalho{
+    width: 393px;
+    height: 405px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 10px 0px #dadada;
+    border-radius: 8px;
+    line-height: 25px;
+}
+
+.cabecalho > h4{
+    color: #00A551;
+    margin-bottom: 11px;
+    margin-top: -20px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.cabecalho > h5{
+    color: #474749;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.cabecalho > input{
+    width: 309px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 7px;
+    background: #f4f4f4;
+    outline: none;
+    border: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#label1{
+    color: #7F7E83;
+    margin-left: -270px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#label2{
+    color: #7F7E83;
+    margin-left: -230px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.cabecalho > button{
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    background: #00A551;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.footer{
+    margin-top: 10px;
+    padding: 5px;
+    text-align: left;
+    display: flex;
+}
+
+.footer > h5{
+    color: #474749;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer > a{
+    color: #00A551;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-left: 3px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
